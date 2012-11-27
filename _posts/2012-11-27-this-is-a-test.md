@@ -19,7 +19,7 @@ I really like the idea of having control over your content like this. No complic
 
 Here is the test post I used:
 
-```markdown
+```
 ---
 layout: post
 title: This is a test
