@@ -19,7 +19,7 @@ I really like the idea of having control over your content like this. No complic
 
 Here is the test post I used:
 
-```
+<pre>
 ---
 layout: post
 title: This is a test
@@ -28,6 +28,6 @@ title: This is a test
 ## {{ page.title }}
 
 Of GitHub pages. 
-```
+</pre>
 
 Name the file `_posts/YYYY-mm-dd-some-title.md` and it will get translated into a page at http://username.github.com/YYYY/mm/dd/some-title.html. 
