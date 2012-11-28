@@ -31,3 +31,7 @@ Of GitHub pages.
 </pre>
 
 Name the file `_posts/YYYY-mm-dd-some-title.md` and it will get translated into a page at http://username.github.com/YYYY/mm/dd/some-title.html. 
+
+Edit 2: Testing an image
+
+![SIPI Jelly Beans](/images/SIPI_Jelly_Beans_4.1.07.jpg "SIPI Jelly Beans")
