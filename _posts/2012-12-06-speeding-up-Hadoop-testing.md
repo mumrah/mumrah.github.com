@@ -13,6 +13,8 @@ Lower the following configuration values in mapred-site.xml to lower the startup
     jobclient.completion.poll.interval=100
     jobclient.progress.monitor.poll.interval=50
 
+### /tl;dr
+
 When dealing with complex Hadoop workflows, and let's face it - they're all complex, it is often useful to test
 the workflow from a very high level. Unit testing your Hadoop jobs is useful too (see [MRUnit](http://mrunit.apache.org/)),
 but narrowly focused testing like this fails to capture the interactions between Hadoop jobs.
