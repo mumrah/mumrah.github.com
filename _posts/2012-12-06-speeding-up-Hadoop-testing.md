@@ -6,14 +6,13 @@ published: true
 
 ## {{ page.title }}
 
-### tl;dr
-
-In Hadoop 0.21 or later (or 2.x), lower the following configuration values in mapred-site.xml to lower the startup cost 
+__tl;dr__ In Hadoop 0.21 or later (or 2.x), lower the following configuration values in mapred-site.xml to lower the startup cost 
 of a Hadoop job:
 
     mapreduce.client.completion.pollinterval=100
     mapreduce.client.progressmonitor.pollinterval=50
 
+<br/>
 <hr/>
 
 When dealing with complex Hadoop workflows, and let's face it - they're all complex, it is often useful to test
@@ -32,7 +31,7 @@ I am a huge proponent of rapid iteration. To facilitate rapid iteration, you nee
 for a test cycle is pretty unacceptable. So, how can we speed things up?
 
 Starting in 0.21, Hadoop has a configurable polling interval for job startup and job progress. The default values 
-are (in milliseconds) "5000" and "1000", respectively, and are found in `mapred-default.xml`.
+are (in milliseconds) "5000" and "1000", respectively, and are found in <span>`mapred-default.xml`</span>.
 
     mapreduce.client.completion.pollinterval=100
     mapreduce.client.progressmonitor.pollinterval=50
