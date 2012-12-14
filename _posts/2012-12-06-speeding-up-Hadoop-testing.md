@@ -31,7 +31,7 @@ I am a huge proponent of rapid iteration. To facilitate rapid iteration, you nee
 for a test cycle is pretty unacceptable. So, how can we speed things up?
 
 Starting in 0.21, Hadoop has a configurable polling interval for job startup and job progress. The default values 
-are (in milliseconds) "5000" and "1000", respectively, and are found in <span>`mapred-default.xml`</span>.
+are (in milliseconds) "5000" and "1000", respectively, and are found in <span style="white-space:nowrap">`mapred-default.xml`</span>.
 
     mapreduce.client.completion.pollinterval=100
     mapreduce.client.progressmonitor.pollinterval=50
