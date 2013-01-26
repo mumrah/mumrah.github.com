@@ -6,7 +6,7 @@ published: false
 
 ## {{ page.title }}
 
-A few weeks ago, I was enlisted to write an article for (Software Developer's Journal)[http://sdjournal.org/]
+A few weeks ago, I was enlisted to write an article for [Software Developer's Journal](http://sdjournal.org/)
 on Hadoop. The article won't go to press for a few weeks still, but that's not what we're here to talk about.
 
 As part of delivering my article, the editor wanted images of my source code - as in screenshots. How awful, 
