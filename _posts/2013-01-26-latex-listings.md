@@ -7,7 +7,9 @@ published: false
 ## {{ page.title }}
 
 A few weeks ago, I was enlisted to write an article for [Software Developer's Journal](http://sdjournal.org/)
-on Hadoop. The article won't go to press for a few weeks still, but that's not what we're here to talk about.
+on Hadoop. I wrote a fair bit of source code for the article that I wanted to include as inline listings. The
+specifics of the article aren't important (I'll talk about it later maybe), and that's not what we're here to 
+talk about anyways (see title).
 
 As part of delivering my article, the editor wanted images of my source code - as in screenshots. How awful, 
 I thought, but I am of the mind that if you're going to do something, you may as well do it right.
@@ -19,18 +21,20 @@ source code listings.
 
 ![LaTeX Listings image](/images/hello.png "Hello, LaTeX!")
 
-After spending an afternoon getting texlive installed on my laptop and fiddling around with the settings, I was
-getting some nice looking PNGs of my source code listings for the article. 
+Instead of crummy screenshots of Vim, I spent an afternoon getting texlive installed on my laptop and fiddling 
+around with the settings. Before long, I was getting some nice looking PNGs of my source code listings. 
+
+![Java source code listing](/images/listing-6.png "NGramWithIntWritable, yo.")
 
 That's when I had the bright idea to make it into a web app
 
 http://source2image.info
 
 The whole thing took about 4 hours from idea to product, including provisioning a server on EC2, writing a Flask app,
-and get LaTeX installed. I iterated on it for a few days and ran it by some colleuges before tossing up some 
-AdSense ads and submitting to Reddit.
+and get LaTeX installed. I iterated on it for a few days and ran it by some colleagues before tossing up some 
+AdSense ads and submitting to Reddit (Reddit quickly crushed my t1.micro, so I upgraded to a m1.large).
 
-All told, I netted 9.36 with 1916 views and 13 clicks over three days. My CPC is up to 0.72 (which I think is pretty respectible),
+All told, I netted 9.36 with 1916 views and 13 clicks over three days. My CPC is up to 0.72 (which I think is pretty respectable),
 and my page RPM is 4.88. All amounts are USD.
 
 If only I could keep up that kind of traffic, this thing would pay for itself in no time. Too bad the need for images
