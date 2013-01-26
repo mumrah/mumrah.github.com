@@ -24,7 +24,7 @@ source code listings.
 Instead of crummy screenshots of Vim, I spent an afternoon getting texlive installed on my laptop and fiddling 
 around with the settings. Before long, I was getting some nice looking PNGs of my source code listings. 
 
-![Java source code listing](/images/listing-6.png "NGramWithIntWritable, yo.")
+<img src="/images/listing-6.png" title="NGramWithIntWritable, yo." alt="Java source code listing" width="640px"/>
 
 That's when I had the bright idea to make it into a web app
 
