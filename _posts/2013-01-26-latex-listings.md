@@ -19,9 +19,7 @@ system commonly used in academia. You give it some funky looking markup, and it 
 documents (pdfs and the like). The listings package enables you to make nice looking vector graphics from your
 source code listings.
 
-![LaTeX Listings image](/images/hello.png "Hello, LaTeX!")
-
-Instead of crummy screenshots of Vim, I spent an afternoon getting texlive installed on my laptop and fiddling 
+So, instead of crummy VIM screenshots, I spent an afternoon getting texlive installed on my laptop and fiddling 
 around with the settings. Before long, I was getting some nice looking PNGs of my source code listings. 
 
 <img src="/images/listing-6.png" title="NGramWithIntWritable, yo." alt="Java source code listing" width="640px"/>
