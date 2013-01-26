@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LaTeX, AdSense, and self-promotion
-published: false
+published: true
 ---
 
 ## {{ page.title }}
