@@ -17,7 +17,7 @@ system commonly used in academia. You give it some funky looking markup, and it 
 documents (pdfs and the like). The listings package enables you to make nice looking vector graphics from your
 source code listings.
 
-TODO add image here
+![LaTeX Listings image](/images/hello.png "Hello, LaTeX!")
 
 After spending an afternoon getting texlive installed on my laptop and fiddling around with the settings, I was
 getting some nice looking PNGs of my source code listings for the article. 
@@ -26,14 +26,23 @@ That's when I had the bright idea to make it into a web app
 
 http://source2image.info
 
+The whole thing took about 4 hours from idea to product, including provisioning a server on EC2, writing a Flask app,
+and get LaTeX installed. I iterated on it for a few days and ran it by some colleuges before tossing up some 
+AdSense ads and submitting to Reddit.
 
+All told, I netted 9.36 with 1916 views and 13 clicks over three days. My CPC is up to 0.72 (which I think is pretty respectible),
+and my page RPM is 4.88. All amounts are USD.
 
-</br>
-</hr>
+If only I could keep up that kind of traffic, this thing would pay for itself in no time. Too bad the need for images
+of source code is pretty niche. That said, I am #3 for ["generate image of source code"](https://www.google.com/search?q=image+of+source+code).
+Go ahead, click through to my site - you know you want to. I'm pretty sure the AdSense TOS forbids me from soliciting you to click on
+any of my ads, so I'm not telling you to click on my ads.
 
+Oh, and did I mention that I am keeping the code on GitHib. https://github.com/mumrah/source2image
 
-http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+## Links
 
-http://www.ctan.org/tex-archive/macros/latex/contrib/listings/
-
-http://sdjournal.org/apache-hadoop-ecosystem/
+* [My site, source2image](http://source2image.info)
+* [Software Developer's Journal: Hadoop Issue](http://sdjournal.org/apache-hadoop-ecosystem/)
+* [Wikibooks on LaTeX listings](http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings)
+* [Official LaTeX docs](http://www.ctan.org/tex-archive/macros/latex/contrib/listings/)
