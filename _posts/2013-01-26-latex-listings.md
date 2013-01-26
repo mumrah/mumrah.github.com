@@ -36,7 +36,7 @@ All told, I netted 9.36 with 1916 views and 13 clicks over three days. My CPC is
 and my page RPM is 4.88. All amounts are USD.
 
 If only I could keep up that kind of traffic, this thing would pay for itself in no time. Too bad the need for images
-of source code is pretty niche. That said, I am #3 for ["generate image of source code"](https://www.google.com/search?q=image+of+source+code).
+of source code is pretty niche. That said, I am #3 for ["generate image of source code"](https://www.google.com/search?q=generate+image+of+source+code).
 Go ahead, click through to my site - you know you want to. I'm pretty sure the AdSense TOS forbids me from soliciting you to click on
 any of my ads, so I'm not telling you to click on my ads.
 
