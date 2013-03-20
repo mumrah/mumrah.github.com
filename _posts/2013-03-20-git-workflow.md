@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My new favorite Git workflow
-published: false
+published: true
 ---
 
 ## {{ page.title }}
@@ -16,7 +16,7 @@ What I ended doing was what I like to think of as a "patch merge".
 * Once integration is ready, do a no-commit squash to mainline
 * git-patch specific changes into a smaller number of nice self-contained commits
 
-Or in git-ese
+Or in git-speak
 
 ```
 # On develop
