@@ -18,18 +18,16 @@ What I ended doing was what I like to think of as a "patch merge".
 
 Or in git-speak
 
-```
-# On develop
-git checkout -b my-feature
-
-# Do some work on feature
-git checkout -b integration
-git rebase develop
-# Fix conflicts, tests, etc
-
-git checkout develop
-git merge --squash --no-commit integration
-
-# Create nice logically self-contained commits from the results of merge
-git add -p
-```
+    # On develop
+    git checkout -b my-feature
+    
+    # Do some work on feature
+    git checkout -b integration
+    git rebase develop
+    # Fix conflicts, tests, etc
+    
+    git checkout develop
+    git merge --squash --no-commit integration
+    
+    # Create nice logically self-contained commits from the results of merge
+    git add -p
