@@ -26,7 +26,7 @@ around with the settings. Before long, I was getting some nice looking PNGs of m
 
 That's when I had the bright idea to make it into a web app
 
-[http://source2image.info](http://source2image.info)
+~~[http://source2image.info](https://github.com/mumrah/source2image)~~ I later abandoned this domain. Hosting costs outweighed ad revenue after a few months.
 
 The whole thing took about 4 hours from idea to product, including provisioning a server on EC2, writing a Flask app,
 and get LaTeX installed. I iterated on it for a few days and ran it by some colleagues before tossing up some 
@@ -40,7 +40,7 @@ of source code is pretty niche. That said, I am #3 for ["generate image of sourc
 Go ahead, click through to my site - you know you want to. I'm pretty sure the AdSense TOS forbids me from soliciting you to click on
 any of my ads, so I'm not telling you to click on my ads.
 
-Oh, and did I mention that I am keeping the code on [GitHib](http://source2image.info).
+Oh, and did I mention that I am keeping the code on [GitHib](https://github.com/mumrah/source2image).
 
 ## Links
 
